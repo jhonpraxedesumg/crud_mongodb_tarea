@@ -7,7 +7,8 @@ import org.example.crud.ClsTelefonos;
 public class Main {
     public static void main(String[] args) {
         ClsTelefonos tel = new ClsTelefonos();
-        tel.conexion();
-        tel.agregarTelefono();
+       tel.conexion();
+//        tel.agregarTelefono();
+        tel.MostrarTelefonos();
     }
 }

@@ -5,10 +5,10 @@ public class TelefonoDTO {
     private String modelo;
     private String sisOperativo;
     private double sizePantalla;
-    private int memoriaRAM;
-    private int almacenamiento;
+    private double memoriaRAM;
+    private double almacenamiento;
     private boolean camara;
-    private int resolucionCamara;
+    private double resolucionCamara;
     private boolean smartphone;
     private String imei;
 
@@ -44,19 +44,19 @@ public class TelefonoDTO {
         this.sizePantalla = sizePantalla;
     }
 
-    public int getMemoriaRAM() {
+    public double getMemoriaRAM() {
         return memoriaRAM;
     }
 
-    public void setMemoriaRAM(int memoriaRAM) {
+    public void setMemoriaRAM(double memoriaRAM) {
         this.memoriaRAM = memoriaRAM;
     }
 
-    public int getAlmacenamiento() {
+    public double getAlmacenamiento() {
         return almacenamiento;
     }
 
-    public void setAlmacenamiento(int almacenamiento) {
+    public void setAlmacenamiento(double almacenamiento) {
         this.almacenamiento = almacenamiento;
     }
 
@@ -68,11 +68,11 @@ public class TelefonoDTO {
         this.camara = camara;
     }
 
-    public int getResolucionCamara() {
+    public double getResolucionCamara() {
         return resolucionCamara;
     }
 
-    public void setResolucionCamara(int resolucionCamara) {
+    public void setResolucionCamara(double resolucionCamara) {
         this.resolucionCamara = resolucionCamara;
     }
 
